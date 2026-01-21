@@ -86,3 +86,33 @@ To know more about its features, check out our [website](https://scaffoldeth.io)
 We welcome contributions to Scaffold-ETH 2!
 
 Please see [CONTRIBUTING.MD](https://github.com/scaffold-eth/scaffold-eth-2/blob/main/CONTRIBUTING.md) for more information and guidelines for contributing to Scaffold-ETH 2.
+
+
+## USAGE
+
+the frontend consists of these methods
+1 - registering a file
+2 - getting file record by hash
+3 - ownership transfer
+4 - list of current user files
+5 - the history of ownership by filehash
+
+![](readme_images/image_1.png)
+
+
+To register file simply choose it on laptop and then confirm transaction
+
+![](readme_images/register_file.png)
+
+
+After the file registration it will show up in the my files tab and will be searchable by hash
+
+![](readme_images/registered_file.png)
+
+To transfer ownership simply paste the hash of file and the address of new owner and approve transaction
+
+![](readme_images/ownership_transfer.png)
+
+Now in file history the ownership history can be viewed
+
+![](readme_images/file_history.png)
